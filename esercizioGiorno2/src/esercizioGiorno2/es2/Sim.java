@@ -23,6 +23,7 @@ public void stampaDatiSim() {
 	}
 }
 
+//METODO PER EFFETTUARE LE CHIAMATE
 public void effetuaChiamata(String numero, int durataChiamata) {
 	for(int i = 0; i < chiamateEffettuate.length; i++) {
 		if(chiamateEffettuate[i] == null) {
@@ -32,6 +33,7 @@ public void effetuaChiamata(String numero, int durataChiamata) {
 	}
 }
 
+//METODO PER EFFETTUARE UNA RICARICA
 public void ricarica(double ricarica) {
 	this.credito += ricarica;
 }
